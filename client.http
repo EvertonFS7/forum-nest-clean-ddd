@@ -1,0 +1,11 @@
+@baseUrl = http://localhost:3333
+
+# @name authenticated
+
+POST {{baseUrl}}/sessions
+Content-Type: application/json
+
+{
+  "email": "everton@gmail.com",
+  "password": "3j812018209%$S#J&SG"
+}
